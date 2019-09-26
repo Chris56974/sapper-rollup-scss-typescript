@@ -2,6 +2,9 @@
 
 This is a template for a sapper project using rollup, scss, and typescript.
 
+When I use ES6 modules, I get the identifier is expected error
+
+When I use commonJS modules, I get the unrecognized option 'markup' error
 
 The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
 
