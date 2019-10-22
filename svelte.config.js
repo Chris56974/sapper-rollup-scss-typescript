@@ -1,5 +1,5 @@
-import sveltePreprocess from 'svelte-preprocess';
-// const sveltePreprocess = require('svelte-preprocess');
+// import sveltePreprocess from 'svelte-preprocess';
+const sveltePreprocess = require('svelte-preprocess');
 
 const preprocess = sveltePreprocess({
   postcss: {
@@ -9,5 +9,5 @@ const preprocess = sveltePreprocess({
   typescript: true
 });
 
-export default preprocess;
-// module.exports = preprocess;
+// export default preprocess;
+module.exports = preprocess;
